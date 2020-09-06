@@ -1,5 +1,5 @@
 export const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
-export const API_URL = `http://api.openweathermap.org/data/2.5/forecast?`
+export const API_URL = `http://api.openweathermap.org/data/2.5/forecast`
 export const API_IMG_URL = `http://openweathermap.org/img/wn/`
 
 export const DATE_FORMATE_OPTION = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
