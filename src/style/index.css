@@ -1,0 +1,132 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: #86B9E0;
+}
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+}
+.location{
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0;
+}
+.date {
+  padding-top: 10px;
+}
+.container-wrapper {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding: 5px 10px;
+}
+.container-content {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  text-align: center;
+}
+.days-container{
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+  padding: 15px 25px;
+}
+.days-container:last-child {
+  border-bottom: none;
+}
+.time-wrapper {
+  display: block;
+  width: 100%;
+  padding: 15px 10px;
+}
+.time-wrap{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+}
+div.time-wrap.text div { width: 12.5%; }
+div.time-wrap div:not(:last-child) {
+  border-right: 1px solid rgba(255,255,255,0.25);
+}
+.weather-icon {
+  display: inline-block;
+  line-height: 1em;
+  position: relative;
+  font-size: 1em;
+  height: 100px;
+  margin: 2px;
+  width: auto;
+}
+.temp { 
+  font-size: 2em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 1.3;
+}
+.conditions {
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+.text {
+  display: block;
+  text-align: center;
+  padding: 10px; 
+  width: 100%;
+}
+.text p {
+  padding: 2px;
+  white-space: nowrap;
+}
+
+/* responsive */
+@media only screen and (max-width: 576px) {
+  .time-wrap {
+      width: 100%;
+      display: block;
+      text-align: center;
+  }
+  div.time-wrap div:not(:last-child) {
+      border-right: none;
+      border-bottom: 1px solid rgba(255,255,255,0.25);
+  }
+}
+
+@media (max-width: 786px) and (min-width: 576px) {
+  .time-wrap {
+      width: 100%;
+      display: block;
+      text-align: center;
+  }
+
+  div.time-wrap div:not(:last-child) {
+      border-right: none;
+      border-bottom: 1px solid rgba(255,255,255,0.25);
+  }
+}
+@media (max-width: 1024px) and (min-width: 786px) {
+  .time-wrap {
+      width: 100%;
+      display: flex;
+      text-align: center;
+      border-bottom: none;
+  }
+}
+
+@media (max-width: 1386px) and (min-width: 1024px) {
+  .time-wrap {
+      width: 100%;
+      display: flex;
+      text-align: center;
+      border-bottom: none;
+  }
+}

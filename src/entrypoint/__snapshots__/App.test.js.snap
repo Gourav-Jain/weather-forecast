@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@App 1`] = `
+<div>
+  <div
+    class="container-wrapper"
+  >
+    <div
+      class="container-content"
+    >
+      <h1
+        style="color: red;"
+      />
+    </div>
+  </div>
+</div>
+`;

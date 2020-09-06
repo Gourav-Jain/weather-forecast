@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@DayCard 1`] = `
+<div>
+  <div
+    class="days-container"
+  >
+    <div
+      class="container"
+    >
+      <h3
+        class="date"
+      >
+        Saturday, September 5, 2020
+      </h3>
+      <div
+        class="weather-icon"
+      >
+        <div
+          class="sunny"
+        >
+          <img
+            alt=""
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+          />
+        </div>
+        <p
+          class="temp"
+        >
+          15.12
+           
+          <span>
+            ℃
+          </span>
+        </p>
+        <p
+          class="conditions"
+        >
+          light rain
+        </p>
+      </div>
+      <div
+        class="time-wrapper"
+      >
+        <div
+          class="time-wrap"
+        >
+          <div
+            class="text"
+          >
+            <p>
+              Time:
+            </p>
+            <p>
+              Min Temp:
+            </p>
+            <p>
+              Max Temp:
+            </p>
+          </div>
+          <div
+            class="text"
+          >
+            <p>
+              18:00
+            </p>
+            <p>
+              13.34
+               
+              <span>
+                ℃
+              </span>
+            </p>
+            <p>
+              15.12
+               
+              <span>
+                ℃
+              </span>
+            </p>
+          </div>
+          <div
+            class="text"
+          >
+            <p>
+              21:00
+            </p>
+            <p>
+              9.61
+               
+              <span>
+                ℃
+              </span>
+            </p>
+            <p>
+              11.17
+               
+              <span>
+                ℃
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
